@@ -117,7 +117,7 @@ export default function Avalanche({ provider, account, connectWallet }) {
 
   const handleViewToken = () => {
     if (contractAddress) {
-      const etherscanUrl = `https://avascan.info/blockchain/all/token/${contractAddress}`;
+      const etherscanUrl = `https://avascan.info/blockchain/c/token/${contractAddress}`;
       window.open(etherscanUrl, '_blank');
     }
   };
